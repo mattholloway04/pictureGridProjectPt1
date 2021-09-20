@@ -1,17 +1,13 @@
 header {
-  width: 35rem;
-  height: 1.5rem;
+  height: 1.7rem;
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(153, 116, 106);
   font-size: 1.2rem;
   justify-items: center;
 }
-.bigdiv {
+body {
   border: 10px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  width: 35rem;
 }
 .container {
   display: grid;
@@ -101,12 +97,17 @@ img {
 .text {
   display: grid;
   grid-area: text;
+  align-content: flex-end;
+  justify-content: flex-end;
+}
+li {
+  list-style: none;
 }
 p[class='p1'] {
+  display: grid;
   font-size: 10px;
   color: darkred;
 }
-
 p[class='p2'] {
   display: inline;
   font-size: 10px;
